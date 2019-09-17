@@ -7,11 +7,11 @@ echo "It will show average number you typed in"
 
 
 
-
+valid=true
 sum=0
 n=0
 
-while [ true ]
+while $valid
 do
 
 	echo "Enter a number or press X to exit"
