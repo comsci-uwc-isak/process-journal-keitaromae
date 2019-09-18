@@ -58,7 +58,7 @@ do
 		((cost=$cost+$a6))
 		echo $cost
 	else 
-	echo "Incorrect choice"
+	echo "order unavailable"
 
 	fi
  
@@ -71,5 +71,4 @@ do
 done
 
 echo "!!!!!!ARIGATOOOOO GOZAIMASITAAAAAA!!!!!!" 
-echo "total price is: "
-echo $cost
+echo "total price is: "$cost
